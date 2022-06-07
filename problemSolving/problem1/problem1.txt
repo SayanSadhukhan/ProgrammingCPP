@@ -1,0 +1,4 @@
+ n courses, some courses may have prerequisites.
+ [A,B] -> means you must take the course B before A.
+ e.g. [[1,0],[2,0],[3,1],[3,2]]
+ Find the ordering of the courses so as to finish all the courses.
