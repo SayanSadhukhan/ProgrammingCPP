@@ -1,0 +1,20 @@
+d.findPar(1): 1
+d.findPar(2): 2
+d.findPar(3): 3
+d.findPar(5): 5
+d.DSU_union(1,5) 
+
+d.findPar(5):		1
+d.findPar(4):		4
+
+d.DSU_union(3,2):		
+d.findPar(2):		3
+
+d.DSU_union(2,4): 
+d.findPar(4):		3
+
+d.DSU_union(4,5): 
+d.findPar(5):		3
+
+
+ Executed In: 0 ms
