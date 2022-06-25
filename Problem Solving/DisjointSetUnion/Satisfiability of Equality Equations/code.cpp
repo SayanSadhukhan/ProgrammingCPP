@@ -1,3 +1,5 @@
+// Problem Link: https://leetcode.com/problems/satisfiability-of-equality-equations/
+
 class DSU{
     private:
     vector<int> parent, size;
