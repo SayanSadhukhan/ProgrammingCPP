@@ -1,8 +1,8 @@
 
 
 
-//=============================================================================================================================================//
-// Shortest path for only two weights 0/1
+// //=============================================================================================================================================//
+// // Shortest path for only two weights 0/1
 
 
 
@@ -24,6 +24,7 @@ void file_i_o()
 
 void disp(int v, vector<pair<int, int> > arr[]){
     for(int i = 0; i < v; i++){
+        
         cout<<i<<": ";
         for(auto it: arr[i]){
             cout<<"("<<it.first<<", "<<it.second<<") ";
@@ -89,3 +90,15 @@ int main(int argc, char const *argv[])
 #endif
     return 0;
 }
+
+
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//     float f = (1/9.0);
+//     cout<<(f)<<endl;
+//     return 0;
+// }
