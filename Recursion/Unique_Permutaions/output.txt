@@ -1,0 +1,42 @@
+
+0
+Permutation called for index: 0 and i = 0
+
+1
+Permutation called for index: 1 and i = 1
+
+2
+Permutation called for index: 2 and i = 2
+2 2
+1 1
+
+2
+Permutation called for index: 1 and i = 2
+
+2
+Permutation called for index: 2 and i = 2
+2 2
+1 2
+0 0
+
+1
+
+2
+Permutation called for index: 0 and i = 2
+
+1
+Permutation called for index: 1 and i = 1
+
+2
+Permutation called for index: 2 and i = 2
+2 2
+1 1
+
+2
+0 2
+113
+131
+311
+
+
+ Executed In: 2 ms
