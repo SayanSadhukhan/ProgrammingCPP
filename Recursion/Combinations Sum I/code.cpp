@@ -62,3 +62,42 @@ int main(int argc, char const *argv[])
 #endif
     return 0;
 }
+
+/*
+Combination Sum
+Problem Link: https://leetcode.com/problems/combination-sum/submissions/
+
+class Solution {
+private:
+    void find_UniqueCombinations(vector<int> &candidates, int &sum, int ind,int target, vector<int> &subset, vector<vector<int>> &ans){
+        if(sum == target) {
+            ans.push_back(subset);
+            return;
+        }
+        if(ind == candidates.size()) return;
+
+        if(sum > target) return;
+
+        subset.push_back(candidates[ind]);
+        sum += candidates[ind];
+        find_UniqueCombinations(candidates, sum, ind, target, subset, ans);
+        sum -= candidates[ind];
+        subset.pop_back();
+
+        find_UniqueCombinations(candidates, sum, ind + 1, target, subset, ans);
+    }
+public:
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<int> subset;
+        vector<vector<int>> ans;
+        int sum = 0;
+        find_UniqueCombinations(candidates, sum, 0, target, subset, ans);
+
+        for(auto it: ans){
+            for(auto x: it) cout<<x;
+            cout<<endl;
+        }
+        return ans;
+    }
+};
+*/

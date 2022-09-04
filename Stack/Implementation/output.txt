@@ -1,0 +1,9 @@
+4
+Popped 40
+3
+30
+20
+10
+
+
+ Executed In: 2 ms
