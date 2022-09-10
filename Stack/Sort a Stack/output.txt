@@ -1,0 +1,23 @@
+From sortStack11
+From sortStack42
+From sortStack50
+From sortStack23
+From sortStack10
+From sortStack   end10
+From sortStack   end23
+From sortStack   end50
+From sorted insert                   50 42
+From sortStack   end42
+From sorted insert                   50 11
+From sorted insert                   42 11
+From sorted insert                   23 11
+From sortStack   end11
+Displaying stack 
+50
+42
+23
+11
+10
+
+
+ Executed In: 1 ms
