@@ -20,6 +20,8 @@ public:
 
         for (int i = 0; i < n; i++)
         {
+/*      Removing smaller elements present it the stack            */
+/*Because we need greater element present at left */            
             while (!st.empty() and price[st.top()] <= price[i])
             {
                 st.pop();
@@ -27,10 +29,15 @@ public:
 
             if (!st.empty())
             {
-                span[i] = i - st.top();
+                span[i] = i - st.top();   /*Assigning number of days interval between 
+                left greater and current element
+                */
             }
             else
-                span[i] = i + 1;
+/*  If nothing is present on stack that means there is nothing present on left which is 
+greater than current element 
+*/            
+                span[i] = i + 1;     /*Span array maintatins 1 based indexing */
 
             st.push(i);
         }
