@@ -1,0 +1,6 @@
+Enter the number of elements: 
+Now the size of the array is 1
+1 2 3 4 5 
+
+
+ Executed In: 0 ms
